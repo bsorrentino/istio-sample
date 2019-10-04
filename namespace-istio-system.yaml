@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  creationTimestamp: "2019-10-04T12:51:15Z"
+  labels:
+    name: istio-system
+  name: istio-system
+  resourceVersion: "2080"
+  selfLink: /api/v1/namespaces/istio-system
+  uid: a71c22b8-e6a5-11e9-bfab-025000000001
+spec:
+  finalizers:
+  - kubernetes
+status:
+  phase: Active
