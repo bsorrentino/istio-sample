@@ -30,6 +30,8 @@ spec:
     spec:
       containers:
       - name: nodejs
-        image: istio/node-demo
+        image: docker.pkg.github.com/bsorrentino/istio-sample/app:1.0
         ports:
         - containerPort: 8080
+      imagePullSecrets:
+         - name: regcred
